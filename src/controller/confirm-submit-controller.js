@@ -1,7 +1,7 @@
 import { Controller } from '@hotwired/stimulus';
 import { useClickOutside } from 'stimulus-use';
 
-export default class extends Controller {
+export class ConfirmSubmitController extends Controller {
 
     static classes = [ 'warning' ];
     static values = { confirmationLabel: String };

@@ -1,11 +1,12 @@
 {
   "name": "@headsnet/stimulus-controllers",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A collection of reusable Stimulus JS controllers",
   "repository": "https://github.com/headsnet/stimulus-controllers",
   "author": "Ben Roberts",
   "license": "MIT",
   "private": false,
+  "module": "src/index.js",
   "dependencies": {
     "@hotwired/stimulus": "^3.0.0",
     "stimulus-use": "^0.50.0"
